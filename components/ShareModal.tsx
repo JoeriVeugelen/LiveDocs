@@ -69,6 +69,9 @@ const ShareModal = ({
           <DialogDescription>
             Select which users can view and edit this document
           </DialogDescription>
+          <DialogDescription className="text-red-500 text-sm pt-4">
+            Please only invite users who have logged in to LiveDocs before
+          </DialogDescription>
         </DialogHeader>
 
         <Label htmlFor="email" className="mt-6 text-blue-100">
